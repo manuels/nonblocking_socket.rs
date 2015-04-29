@@ -1,0 +1,10 @@
+[package]
+name = "nonblocking_socket"
+version = "0.0.1"
+authors = ["Manuel Schölling <manuel.schoelling@gmx.de>"]
+
+license = "GPL-2.0"
+description = "Non-blocking Read::read() operations on AsRawFd structs (i.e. TcpStream)"
+
+[dependencies]
+libc = "*"
